@@ -1,4 +1,4 @@
-import { MetalOptions } from "./Metals.js";
+import { MetalOptions } from "./MetalOptions.js";
 import { SizeOptions } from "./SizeOptions.js";
 import { StyleOptions } from "./StyleOptions.js";
 
