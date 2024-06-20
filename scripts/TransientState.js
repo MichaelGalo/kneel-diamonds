@@ -19,3 +19,18 @@ export const setStyles = (chosenStyle) => {
   transientState.styles = chosenStyle;
   console.log(transientState);
 };
+
+// function that turns transient state into permanent state
+export const placeOrder = async () => {
+  // create a postOptions object
+  const postOptions = {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify(transientState),
+  };
+
+  // Send the transient state to your API // make the request
+  const response = await fetch("http://localhost:8088/orders", postOptions);
+};
