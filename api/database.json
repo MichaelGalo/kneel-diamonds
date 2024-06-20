@@ -88,6 +88,12 @@
       "sizes": 1,
       "styles": 1,
       "id": 3
+    },
+    {
+      "metals": 1,
+      "sizes": 2,
+      "styles": 2,
+      "id": 4
     }
   ]
 }

@@ -47,3 +47,8 @@ const render = async () => {
 };
 
 render();
+
+document.addEventListener("orderPlaced", (event) => {
+  console.log("State of data has changed. Regenerating HTML...");
+  render();
+});
