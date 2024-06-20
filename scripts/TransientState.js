@@ -1,22 +1,26 @@
+//metalId, sizeId, styleId below and all relevant
+// change options modules .map methods - jeremy. My experience - change ordersList html to include metalId, sizeId, styleId
+// orders module URL needs to update in postman as well
+
 const transientState = {
-  metals: "",
-  sizes: 0,
-  styles: "",
+  metalId: "",
+  sizeId: 0,
+  styleId: "",
 };
 
 // Functions to modify each property of transient state
 export const setMetals = (chosenMetal) => {
-  transientState.metals = chosenMetal;
+  transientState.metalId = chosenMetal;
   console.log(transientState);
 };
 
 export const setSizes = (chosenSize) => {
-  transientState.sizes = chosenSize;
+  transientState.sizeId = chosenSize;
   console.log(transientState);
 };
 
 export const setStyles = (chosenStyle) => {
-  transientState.styles = chosenStyle;
+  transientState.styleId = chosenStyle;
   console.log(transientState);
 };
 
