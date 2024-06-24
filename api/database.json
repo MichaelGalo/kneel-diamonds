@@ -70,12 +70,37 @@
       "price": 1241
     }
   ],
+  "items": [
+    {
+      "id": 1,
+      "type": "Ring",
+      "price": 100
+    },
+    {
+      "id": 2,
+      "type": "Necklace",
+      "price": 200
+    },
+    {
+      "id": 3,
+      "type": "Earring",
+      "price": 300
+    }
+  ],
   "orders": [
     {
       "metalId": 1,
       "sizeId": 2,
       "styleId": 1,
+      "itemId": 1,
       "id": 1
+    },
+    {
+      "metalId": 3,
+      "sizeId": 3,
+      "styleId": 2,
+      "itemId": 2,
+      "id": 2
     }
   ]
 }
